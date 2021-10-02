@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "707255475770",
+    "project_id": "music-player-kotlin-82bc3",
+    "storage_bucket": "music-player-kotlin-82bc3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707255475770:android:d055c8edb3feb5dfe85f03",
+        "android_client_info": {
+          "package_name": "com.plcoding.spotifycloneyt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707255475770-jlqu08uqcdl61tuiucmhm7a4pk8euae0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGkt5tQi2Ma5IgsXtoH9xdkwGgnS-s_uw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707255475770-jlqu08uqcdl61tuiucmhm7a4pk8euae0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
