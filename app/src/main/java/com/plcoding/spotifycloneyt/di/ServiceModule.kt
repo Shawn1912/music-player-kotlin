@@ -6,6 +6,7 @@ import com.google.android.exoplayer2.C
 import com.google.android.exoplayer2.SimpleExoPlayer
 import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory
 import com.google.android.exoplayer2.util.Util
+import com.plcoding.spotifycloneyt.data.remote.MusicDatabase
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -16,6 +17,10 @@ import dagger.hilt.android.scopes.ServiceScoped
 @Module // to tell Dagger that this is a module class
 @InstallIn(ServiceComponent::class) // parameter requires component which specifies the lifetime of dependencies, so here ServiceComponent restricts the lifetime of dependencies to the lifetime of the service
 object ServiceModule {
+
+    @ServiceScoped // we will have the same instance of these audio attributes in our same service instance
+    @Provides // denotes that we want to provide something with this function
+    fun provideMusicDatabase() = MusicDatabase() // will allow Dagger-hilt to inject this instance to FirebaseMusicSource
 
     @ServiceScoped // we will have the same instance of these audio attributes in our same service instance
     @Provides // denotes that we want to provide something with this function
