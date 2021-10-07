@@ -2,7 +2,7 @@ package com.plcoding.spotifycloneyt.data.remote
 
 import com.google.firebase.firestore.FirebaseFirestore
 import com.plcoding.spotifycloneyt.data.entities.Song
-import com.plcoding.spotifycloneyt.data.other.Constants.SONG_COLLECTION
+import com.plcoding.spotifycloneyt.other.Constants.SONG_COLLECTION
 import kotlinx.coroutines.tasks.await
 import java.lang.Exception
 
