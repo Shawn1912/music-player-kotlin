@@ -1,12 +1,13 @@
-package com.plcoding.spotifycloneyt
+package com.plcoding.spotifycloneyt.ui.viewmodels
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.bumptech.glide.RequestManager
+import com.plcoding.spotifycloneyt.R
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
-@AndroidEntryPoint // need to annotate Android componenets if injected into them
+@AndroidEntryPoint // need to annotate Android components if injected into them
 class MainActivity : AppCompatActivity() {
 
     @Inject
